@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<!-- this is HTML page for user creation -->
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="styl.css">
+
+<title>projektik - user default</title>
+</head>
+
+<body>
+<header  class="reklamaHeader">
+
+<iframe src="//ad.geekhosting.cz/reklama.html" style="overflow: hidden;border: none;" frameborder="0" scrolling="no" width="100%" height="auto" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
+
+</header>
+
+<div class="pozadiDivUzivatel">
+
+	<div class="hlavniDivUzivatel">
+	
+	<div class = "nadpisDiv" >  
+		Input name and password: 
+	</div>
+	
+		<form id="forma1" class = "formUzivatelClass" method="POST" action="PHPforMAIN.php">
+			<div class = "inputAndTextContainerDiv"> 			
+				Name of :&nbsp;user:&nbsp;
+			
+				<div class = "inputContainerDiv"> 
+					<input class= "inputText" type="text" name="jmenoUzivatele">
+				</div>
+		  </div>
+		  
+		  <div class = "inputAndTextContainerDiv"> 	
+			  Password:&nbsp;
+			  <div class = "inputContainerDiv"> 
+				<input class= "inputText" type="password"  name="heslo">			  
+			  </div>
+		  </div>
+		  
+		  <div class = "inputAndTextContainerDiv"> 	
+				Password confirm:&nbsp; 
+			  
+			  <div class = "inputContainerDiv"> 
+				<input class= "inputText" type="password" name="hesloPotvrzeni">			  
+			  </div>
+		  </div>
+
+		<input type="hidden" name="switch" value="2" />
+	
+		</form>
+
+	<div class = "buttonContainerDiv">
+		<div id="prvniUzivatelZobrazovac" class = "buttonLeftDiv">
+			(creation of first user)	
+		</div>
+		<div class = "buttonRightDiv">
+			<button type="submit" form="forma1" value="Submit" class="tlacitko">Confirm</button>
+		</div>
+	</div>
+
+
+	</div>
+
+
+
+</div>
+
+</body>
+
+</html>

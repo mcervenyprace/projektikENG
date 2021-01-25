@@ -1,0 +1,15 @@
+2019
+
+8.11. - Beginning of project, creation of HTML basis 
+10.11. - Creation of table structure, user logins.
+13.11. - Creation of objects and methods for uploading images. 
+14.11. - Changes in HTML for image previews and viewing differently sized images.
+15.11. - File control system and saving images into a specific folder.
+17.11. - Start and end of session, control of user at all stages. Project working in Firefox on localhost.
+18.11. - Project working in Edge and Chrome (see problemChromeEdge.bmp) on localhost, syntax was checked using online validators.
+19.11. - Project tried out on free webhosting, modification for website setup for case when database is already avaliable, revalidation. 
+Used validators see viz validation.txt.
+
+2021
+15.1. - Start of translation into english, finished the same day
+25.1. - Created online webhosting, uploaded and fixed missed translations and CSS 
